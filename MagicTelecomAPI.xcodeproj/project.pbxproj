@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 46;
+    objects = {
+
+/* Begin PBXAggregateTarget section */
+		AAB98C663E5EB6453987CF47 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AA4AF41EE8A5894691BD16B5 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				AA1B21517981A44CC1A63D75 /* MultiBuild Framework */,
+			);
+			dependencies = (
+				AA58D6C41684F940ECBE6E5B /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+        AAE264037D92F44F189F90C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA99839CFEA4924EBC87E3E0 /* Foundation.framework */; };
+        AA5971BC06C88547A895FD1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA99839CFEA4924EBC87E3E0 /* Foundation.framework */; };
+        AA0675A60263CE415084A762 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AADE9C119433CE45C0A02F9B /* UIKit.framework */; };
+        AA0A4ABFEFC845457783309C /* libMagicTelecomAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF9E132B339A341318FB872 /* libMagicTelecomAPI.a */; };
+        AA3E07F5316D9A458CB76C68 /* APIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB8735569B0214B5BAD49DD /* APIHelper.m */; };
+        AA1CDE98D5708C405CB67CD7 /* APIError.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE93C7FFC47B14A4E98E0C5 /* APIError.m */; };
+        AA30233C67C01B4B1D89E80D /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8B612906DB674F18A2B359 /* Configuration.m */; };
+		AA47C018F3BAA24BBEB0D952 /* Cdrs.h in Headers */ = {isa = PBXBuildFile; fileRef = AA70E1DF280EF24F5492EE26 /* Cdrs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA6E5522F1A66F4C64A4AE91 /* Cdrs.m in Sources */ = {isa = PBXBuildFile; fileRef = AA384AE3928F3E4D278036E0 /* Cdrs.m */; };
+		AAEA6EE2DECA2542E88BC955 /* CartCheckoutForm.h in Headers */ = {isa = PBXBuildFile; fileRef = AABC7A0C55CC4C4459B0C885 /* CartCheckoutForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA18AE4681A72A4229ACE84C /* CartCheckoutForm.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA22149AA50BB41D3AB7E82 /* CartCheckoutForm.m */; };
+		AA04458D1CDF674AF79B945F /* Checkout.h in Headers */ = {isa = PBXBuildFile; fileRef = AA88108172C4194C1DBDB382 /* Checkout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA2A1765C0ED3B4246852D62 /* Checkout.m in Sources */ = {isa = PBXBuildFile; fileRef = AACF1FA39A37B249DBBC1274 /* Checkout.m */; };
+		AAF6C5D0D0F5E8467682218C /* TokenForm.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7E41A51D11ED4CD3B76BE0 /* TokenForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA1E7C5C04D08A48B187CC78 /* TokenForm.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0B317484CC414F1E92441D /* TokenForm.m */; };
+		AAAB5A6DF14F344E018B7FD3 /* CallerLocationResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AA857A3852FD9142F5936380 /* CallerLocationResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAA964A7430DFE404C93BED2 /* CallerLocationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AA09EBCCC064D24B9293EE80 /* CallerLocationResponse.m */; };
+		AA1A488EB9B0A3433C88A81C /* AccountForm.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2A4D44054FC349979FB9D6 /* AccountForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA143F230678FB41D595BEC8 /* AccountForm.m in Sources */ = {isa = PBXBuildFile; fileRef = AA32F07542AA554A82844C32 /* AccountForm.m */; };
+		AA253FE165D50543B584380C /* CdrForm.h in Headers */ = {isa = PBXBuildFile; fileRef = AA8BFFAFED019F44A0B23FA4 /* CdrForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA5C37119C8DC942AD9CC4CE /* CdrForm.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2B7F64B1250D4E53A3A468 /* CdrForm.m */; };
+		AA146289613F494C0C9F55FE /* TrunkForm.h in Headers */ = {isa = PBXBuildFile; fileRef = AA76489C3AD42D4D46AD0C66 /* TrunkForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAB890D37F91594C63B5DCA6 /* TrunkForm.m in Sources */ = {isa = PBXBuildFile; fileRef = AAECED0C8C6B62405F947246 /* TrunkForm.m */; };
+		AABE682F21413C46B882CB86 /* Trunk.h in Headers */ = {isa = PBXBuildFile; fileRef = AADF3F4AA35F9A44B58C2596 /* Trunk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AACE7E0111CA06453E956D4D /* Trunk.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD0AB6A14D24D4FF9B0CDD1 /* Trunk.m */; };
+		AAE77C1A457AF443559F4F35 /* Routing.h in Headers */ = {isa = PBXBuildFile; fileRef = AA49554B2CE05C4AB09F44CE /* Routing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAF403091244E147BF802AAF /* Routing.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4A1BC61179764480AE961B /* Routing.m */; };
+		AA560BCE281CD04DCF894C38 /* Endpoint.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC3F0F2F72D224DDEABA59B /* Endpoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAF98FE27015184F3D8E72D8 /* Endpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = AA941F459B309B4053BD5823 /* Endpoint.m */; };
+		AAACC1696980424B3D836FF3 /* CallerLocationsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE4CADAB198A94907B9E8F7 /* CallerLocationsResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA3FEAA62848DA4E9EBA3A4B /* CallerLocationsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0ACB674A7BE9473C86C141 /* CallerLocationsResponse.m */; };
+		AAEA9968DF25C44D14907975 /* Data.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0E284294BB364C95AEC927 /* Data.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAC32A000D84A748A3BE541B /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = AA570F686063C24EFA9548FA /* Data.m */; };
+		AA7515C2A746274629A3DDC2 /* CallerLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4F06A039CE194A02A7CEC7 /* CallerLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA1F22614AB81D4BAF97DD38 /* CallerLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAB257E2BA83F4442B8AD91 /* CallerLocation.m */; };
+		AAFA6CA1BF6EB249E595ABE8 /* CallerLocationForm.h in Headers */ = {isa = PBXBuildFile; fileRef = AA099A61FBB41D402B8606F6 /* CallerLocationForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA1074DC84E53B46F1997A90 /* CallerLocationForm.m in Sources */ = {isa = PBXBuildFile; fileRef = AABB0FB294E0CA404FBF1247 /* CallerLocationForm.m */; };
+		AA7194DDA2FECE40E2A31ECC /* Account.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F32822C07A84977A254AF /* Account.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA3CFA648B7F0F4313BD2196 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0072C146A6EE409E9F306D /* Account.m */; };
+		AA862D94EAFFFD49A9A9525C /* TelephoneNumberForm.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC73EEFC3275747F8BC17A7 /* TelephoneNumberForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA47056EDF56EF401DAB9F73 /* TelephoneNumberForm.m in Sources */ = {isa = PBXBuildFile; fileRef = AA706DA88963374013ABD934 /* TelephoneNumberForm.m */; };
+		AA86FAA4AB095A4D82B6416B /* ItemForm.h in Headers */ = {isa = PBXBuildFile; fileRef = AA9654C864AC1E4E9185E3E6 /* ItemForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAF34C3520677A48FEAD9A0B /* ItemForm.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA9D4FFA02AA74CFEBB4DED /* ItemForm.m */; };
+		AADB06006414E04997B480A7 /* Item.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33825A0558FB4739B8110D /* Item.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA8DDA241EE12C41C986BC90 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE2B5B02D87484D7F94B506 /* Item.m */; };
+		AA702998D571B5485F8F5960 /* TrunkItem.h in Headers */ = {isa = PBXBuildFile; fileRef = AAFE098A1D9C1B4AEEB601C7 /* TrunkItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA9897442DA829496CACC6A6 /* TrunkItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1E059C1843AC43948E00D9 /* TrunkItem.m */; };
+		AAAAF4F4273B8248B39BBE43 /* DidItem.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3813C4296C87474A8DB9D9 /* DidItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA71FED5A3F9044589AC03D4 /* DidItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6F543C5ED39E4D958E8B78 /* DidItem.m */; };
+		AAA804E15063564FABA410A8 /* LocationItem.h in Headers */ = {isa = PBXBuildFile; fileRef = AA143FAFBBA0334DCE892CD3 /* LocationItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA56A40BD2927A4A86990B5B /* LocationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF6B52FF00FB647E4AD5A05 /* LocationItem.m */; };
+		AA7D591CC4E8F14B60877576 /* RoutingBase.h in Headers */ = {isa = PBXBuildFile; fileRef = AA49053E2463164CF0A31654 /* RoutingBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA306194543D554C25BEC488 /* RoutingBase.m in Sources */ = {isa = PBXBuildFile; fileRef = AA277D754F089844DD88F399 /* RoutingBase.m */; };
+		AA5ACE25902A564E9795765D /* TelephoneNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = AA9A67F46A1BD641F4BEB22E /* TelephoneNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA30F215E09E7242DCA86F2A /* TelephoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8D412EB9475A46B983C757 /* TelephoneNumber.m */; };
+		AAEF345689FEFC4AFE9C21AA /* Token.h in Headers */ = {isa = PBXBuildFile; fileRef = AA780F0ECDBAA74959B22EE2 /* Token.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA29B65982139545159FB71D /* Token.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9F778579D6A1424A94FBDE /* Token.m */; };
+		AACF8B40AF75064A478A4AB6 /* UsersController.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE98816285E984F418BAF8C /* UsersController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAC38BADCA577A406A835AB2 /* UsersController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD739FA75B9944B37A93164 /* UsersController.m */; };
+		AAA2A79E627FD24983872107 /* AccountsController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0AC8A87C350E4850B904D3 /* AccountsController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAE75355997E0B4295A0FF0C /* AccountsController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA19FE8717DBFE4437A69C42 /* AccountsController.m */; };
+		AAA0FD2CF7F1E14FEA92E0BE /* DidsController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4E08EE3DCB7A4640BA34EB /* DidsController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA5147FF9EDE5F4F6B802AF6 /* DidsController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF095E36ED1CC453BBFC968 /* DidsController.m */; };
+		AA8394705940FB47959032AB /* DidsProductsController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA01D3DD7B68094DABBDD1FC /* DidsProductsController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAD58514E2DEF349E489A109 /* DidsProductsController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3B90200AADED4138B17719 /* DidsProductsController.m */; };
+		AA45562A7AA1E749A5836913 /* Configuration.h in Headers */ = {isa = PBXBuildFile; fileRef = AA53E8DB636C4C40F78E5FA3 /* Configuration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA2EAA7F1771E94A5AA77B8B /* APIError.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB770B5BC6C7D42E5888F5D /* APIError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA485224342C5F42699C7565 /* APIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = AA8711B0A695D24221B3FAB3 /* APIHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAC1728C65D05C452188F899 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA024D263D297B47F0AAF8D2 /* libPods.a */; };
+		AA562A10C5C3DC44078FBAA5 /* libJSONModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC275FEFA15894060940DA6 /* libJSONModel.a */; };		
+		AA1838EE2EDA984BF7B70CD3 /* libUnirest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9D7C8D326AA84E49B54CA9 /* libUnirest.a */; };
+		AA38BBB8326B5D4D4DA85938 /* IHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC09F7D9DF7234077A19040 /* IHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAA110EE6CCEC24C1A82778D /* HttpContext.h in Headers */ = {isa = PBXBuildFile; fileRef = AADAF90E371B714F7D971069 /* HttpContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAA9B3BFA23297489AA9E26E /* HttpContext.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1EFFD00A453B4D4F8EBE25 /* HttpContext.m */; };
+
+		AA4D6F63DBBF8449BF9B65DC /* UnirestClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB84C01B4B75043ACAD0354 /* UnirestClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAC47B255C31C841A48B72B9 /* UnirestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9E7D4C2A25E04C249CC94A /* UnirestClient.m */; };
+		AA1016CEF561194CB5A2C9CA /* HttpBodyRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AA016BE0DE80624ACDAA20AA /* HttpBodyRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA489AFBDD2EB54D7693F024 /* HttpBodyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA950D9F2CC2E43DCAC6157 /* HttpBodyRequest.m */; };
+		AA35469A42AA2645F19F93FB /* HttpMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA9502C26F2184D76B556D8 /* HttpMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAC4D4B34E17EC454BB1AB20 /* HttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AA62115601CB0144508B4DAD /* HttpRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA57BE76F61AB24AC98F3067 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AA90A96FC13D53437D885407 /* HttpRequest.m */; };
+		AA6F6EC270129445BC9A0EBF /* HttpResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AA31F65442B97E4A5B8BD280 /* HttpResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAE920D209272A42E79D1F2A /* HttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA1056F1C5BE2424CBB199B /* HttpResponse.m */; };
+		AA1E0ED0549F5C4066AA5BDA /* HttpStringResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AA6CF1B86A849343FF82A339 /* HttpStringResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA5492514524B242F8B82B91 /* HttpStringResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AA22C89D5A43CE47DDB95661 /* HttpStringResponse.m */; };
+		AAA43BBAA53C9248C69C0347 /* BaseController.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB92699B7AAFC430AB4479C /* BaseController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA0E960652E2EF45D3ADFC4A /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9AB3AE72DFFE4D04BDFBEA /* BaseController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAEB86CF5A66774B60806AFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA41AB037C97F8469B8512FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA168EAB1158A7410CAC684F;
+			remoteInfo = MagicTelecomAPI;
+		};
+        AAEB86CF5A66774B60806AFD /* PBXContainerItemProxy */ = {
+            isa = PBXContainerItemProxy;
+            containerPortal = AA80BB8465D46C48E1A83626 /* Project object */;
+            proxyType = 1;
+            remoteGlobalIDString = AA168EAB1158A7410CAC684F;
+            remoteInfo = MagicTelecomAPI;
+        };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+        AA2D6E5270FB514CF9A87799 /* CopyFiles */ = {
+            isa = PBXCopyFilesBuildPhase;
+            buildActionMask = 2147483647;
+            dstPath = "include/$(PRODUCT_NAME)";
+            dstSubfolderSpec = 16;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+        AAF9E132B339A341318FB872 /* libMagicTelecomAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMagicTelecomAPI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+        AA99839CFEA4924EBC87E3E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+        AAD90F74B43A254ED4B52812 /* MagicTelecomAPI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MagicTelecomAPI-Prefix.pch"; sourceTree = "<group>"; };
+        AADE9C119433CE45C0A02F9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+        AAB8735569B0214B5BAD49DD /* APIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIHelper.m; sourceTree = "<group>"; };
+        AA8711B0A695D24221B3FAB3 /* APIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIHelper.h; sourceTree = "<group>"; };		
+        AAE93C7FFC47B14A4E98E0C5 /* APIError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIError.m; sourceTree = "<group>"; };
+        AAB770B5BC6C7D42E5888F5D /* APIError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIError.h; sourceTree = "<group>"; };
+        AA8B612906DB674F18A2B359 /* Configuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Configuration.m; sourceTree = "<group>"; };
+        AA53E8DB636C4C40F78E5FA3 /* Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
+		AA70E1DF280EF24F5492EE26 /* Cdrs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cdrs.h; path = Models/Cdrs.h; sourceTree = "<group>"; };
+		AA384AE3928F3E4D278036E0 /* Cdrs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cdrs.m; path = Models/Cdrs.m; sourceTree = "<group>"; };
+		AABC7A0C55CC4C4459B0C885 /* CartCheckoutForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CartCheckoutForm.h; path = Models/CartCheckoutForm.h; sourceTree = "<group>"; };
+		AAA22149AA50BB41D3AB7E82 /* CartCheckoutForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CartCheckoutForm.m; path = Models/CartCheckoutForm.m; sourceTree = "<group>"; };
+		AA88108172C4194C1DBDB382 /* Checkout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Checkout.h; path = Models/Checkout.h; sourceTree = "<group>"; };
+		AACF1FA39A37B249DBBC1274 /* Checkout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Checkout.m; path = Models/Checkout.m; sourceTree = "<group>"; };
+		AA7E41A51D11ED4CD3B76BE0 /* TokenForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TokenForm.h; path = Models/TokenForm.h; sourceTree = "<group>"; };
+		AA0B317484CC414F1E92441D /* TokenForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TokenForm.m; path = Models/TokenForm.m; sourceTree = "<group>"; };
+		AA857A3852FD9142F5936380 /* CallerLocationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CallerLocationResponse.h; path = Models/CallerLocationResponse.h; sourceTree = "<group>"; };
+		AA09EBCCC064D24B9293EE80 /* CallerLocationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CallerLocationResponse.m; path = Models/CallerLocationResponse.m; sourceTree = "<group>"; };
+		AA2A4D44054FC349979FB9D6 /* AccountForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccountForm.h; path = Models/AccountForm.h; sourceTree = "<group>"; };
+		AA32F07542AA554A82844C32 /* AccountForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccountForm.m; path = Models/AccountForm.m; sourceTree = "<group>"; };
+		AA8BFFAFED019F44A0B23FA4 /* CdrForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CdrForm.h; path = Models/CdrForm.h; sourceTree = "<group>"; };
+		AA2B7F64B1250D4E53A3A468 /* CdrForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CdrForm.m; path = Models/CdrForm.m; sourceTree = "<group>"; };
+		AA76489C3AD42D4D46AD0C66 /* TrunkForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrunkForm.h; path = Models/TrunkForm.h; sourceTree = "<group>"; };
+		AAECED0C8C6B62405F947246 /* TrunkForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrunkForm.m; path = Models/TrunkForm.m; sourceTree = "<group>"; };
+		AADF3F4AA35F9A44B58C2596 /* Trunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Trunk.h; path = Models/Trunk.h; sourceTree = "<group>"; };
+		AAD0AB6A14D24D4FF9B0CDD1 /* Trunk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Trunk.m; path = Models/Trunk.m; sourceTree = "<group>"; };
+		AA49554B2CE05C4AB09F44CE /* Routing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Routing.h; path = Models/Routing.h; sourceTree = "<group>"; };
+		AA4A1BC61179764480AE961B /* Routing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Routing.m; path = Models/Routing.m; sourceTree = "<group>"; };
+		AAC3F0F2F72D224DDEABA59B /* Endpoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Endpoint.h; path = Models/Endpoint.h; sourceTree = "<group>"; };
+		AA941F459B309B4053BD5823 /* Endpoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Endpoint.m; path = Models/Endpoint.m; sourceTree = "<group>"; };
+		AAE4CADAB198A94907B9E8F7 /* CallerLocationsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CallerLocationsResponse.h; path = Models/CallerLocationsResponse.h; sourceTree = "<group>"; };
+		AA0ACB674A7BE9473C86C141 /* CallerLocationsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CallerLocationsResponse.m; path = Models/CallerLocationsResponse.m; sourceTree = "<group>"; };
+		AA0E284294BB364C95AEC927 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Data.h; path = Models/Data.h; sourceTree = "<group>"; };
+		AA570F686063C24EFA9548FA /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Data.m; path = Models/Data.m; sourceTree = "<group>"; };
+		AA4F06A039CE194A02A7CEC7 /* CallerLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CallerLocation.h; path = Models/CallerLocation.h; sourceTree = "<group>"; };
+		AAAB257E2BA83F4442B8AD91 /* CallerLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CallerLocation.m; path = Models/CallerLocation.m; sourceTree = "<group>"; };
+		AA099A61FBB41D402B8606F6 /* CallerLocationForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CallerLocationForm.h; path = Models/CallerLocationForm.h; sourceTree = "<group>"; };
+		AABB0FB294E0CA404FBF1247 /* CallerLocationForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CallerLocationForm.m; path = Models/CallerLocationForm.m; sourceTree = "<group>"; };
+		AA5F32822C07A84977A254AF /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Account.h; path = Models/Account.h; sourceTree = "<group>"; };
+		AA0072C146A6EE409E9F306D /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Account.m; path = Models/Account.m; sourceTree = "<group>"; };
+		AAC73EEFC3275747F8BC17A7 /* TelephoneNumberForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TelephoneNumberForm.h; path = Models/TelephoneNumberForm.h; sourceTree = "<group>"; };
+		AA706DA88963374013ABD934 /* TelephoneNumberForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TelephoneNumberForm.m; path = Models/TelephoneNumberForm.m; sourceTree = "<group>"; };
+		AA9654C864AC1E4E9185E3E6 /* ItemForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemForm.h; path = Models/ItemForm.h; sourceTree = "<group>"; };
+		AAA9D4FFA02AA74CFEBB4DED /* ItemForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemForm.m; path = Models/ItemForm.m; sourceTree = "<group>"; };
+		AA33825A0558FB4739B8110D /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Item.h; path = Models/Item.h; sourceTree = "<group>"; };
+		AAE2B5B02D87484D7F94B506 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Item.m; path = Models/Item.m; sourceTree = "<group>"; };
+		AAFE098A1D9C1B4AEEB601C7 /* TrunkItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrunkItem.h; path = Models/TrunkItem.h; sourceTree = "<group>"; };
+		AA1E059C1843AC43948E00D9 /* TrunkItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrunkItem.m; path = Models/TrunkItem.m; sourceTree = "<group>"; };
+		AA3813C4296C87474A8DB9D9 /* DidItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DidItem.h; path = Models/DidItem.h; sourceTree = "<group>"; };
+		AA6F543C5ED39E4D958E8B78 /* DidItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DidItem.m; path = Models/DidItem.m; sourceTree = "<group>"; };
+		AA143FAFBBA0334DCE892CD3 /* LocationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationItem.h; path = Models/LocationItem.h; sourceTree = "<group>"; };
+		AAF6B52FF00FB647E4AD5A05 /* LocationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationItem.m; path = Models/LocationItem.m; sourceTree = "<group>"; };
+		AA49053E2463164CF0A31654 /* RoutingBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoutingBase.h; path = Models/RoutingBase.h; sourceTree = "<group>"; };
+		AA277D754F089844DD88F399 /* RoutingBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RoutingBase.m; path = Models/RoutingBase.m; sourceTree = "<group>"; };
+		AA9A67F46A1BD641F4BEB22E /* TelephoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TelephoneNumber.h; path = Models/TelephoneNumber.h; sourceTree = "<group>"; };
+		AA8D412EB9475A46B983C757 /* TelephoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TelephoneNumber.m; path = Models/TelephoneNumber.m; sourceTree = "<group>"; };
+		AA780F0ECDBAA74959B22EE2 /* Token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Token.h; path = Models/Token.h; sourceTree = "<group>"; };
+		AA9F778579D6A1424A94FBDE /* Token.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Token.m; path = Models/Token.m; sourceTree = "<group>"; };
+		AAE98816285E984F418BAF8C /* UsersController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UsersController.h; path = Controllers/UsersController.h; sourceTree = "<group>"; };
+		AAD739FA75B9944B37A93164 /* UsersController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UsersController.m; path = Controllers/UsersController.m; sourceTree = "<group>"; };
+		AA0AC8A87C350E4850B904D3 /* AccountsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccountsController.h; path = Controllers/AccountsController.h; sourceTree = "<group>"; };
+		AA19FE8717DBFE4437A69C42 /* AccountsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccountsController.m; path = Controllers/AccountsController.m; sourceTree = "<group>"; };
+		AA4E08EE3DCB7A4640BA34EB /* DidsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DidsController.h; path = Controllers/DidsController.h; sourceTree = "<group>"; };
+		AAF095E36ED1CC453BBFC968 /* DidsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DidsController.m; path = Controllers/DidsController.m; sourceTree = "<group>"; };
+		AA01D3DD7B68094DABBDD1FC /* DidsProductsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DidsProductsController.h; path = Controllers/DidsProductsController.h; sourceTree = "<group>"; };
+		AA3B90200AADED4138B17719 /* DidsProductsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DidsProductsController.m; path = Controllers/DidsProductsController.m; sourceTree = "<group>"; };
+		AA024D263D297B47F0AAF8D2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC275FEFA15894060940DA6 /* libJSONModel.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libJSONModel.a"; path = "libJSONModel.a"; sourceTree = "<group>"; };
+		AA9D7C8D326AA84E49B54CA9 /* libUnirest.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libUnirest.a"; path = "libUnirest.a"; sourceTree = "<group>"; };
+        AAC09F7D9DF7234077A19040 /* IHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IHttpClient.h; path = Http/Client/IHttpClient.h; sourceTree = "<group>"; };
+		AAB84C01B4B75043ACAD0354 /* UnirestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnirestClient.h; path = Http/Client/UnirestClient.h; sourceTree = "<group>"; };
+		AA9E7D4C2A25E04C249CC94A /* UnirestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnirestClient.m; path = Http/Client/UnirestClient.m; sourceTree = "<group>"; };
+		AADAF90E371B714F7D971069 /* HttpContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpContext.h; path = Http/Client/HttpContext.h; sourceTree = "<group>"; };
+		AA1EFFD00A453B4D4F8EBE25 /* HttpContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc;name = HttpContext.m;  path = Http/Client/HttpContext.m; sourceTree = "<group>"; };
+
+		AA016BE0DE80624ACDAA20AA /* HttpBodyRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpBodyRequest.h; path = Http/Request/HttpBodyRequest.h; sourceTree = "<group>"; };
+		AAA950D9F2CC2E43DCAC6157 /* HttpBodyRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpBodyRequest.m; path = Http/Request/HttpBodyRequest.m; sourceTree = "<group>"; };
+		AAA9502C26F2184D76B556D8 /* HttpMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpMethod.h; path = Http/Request/HttpMethod.h; sourceTree = "<group>"; };
+		AA62115601CB0144508B4DAD /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpRequest.h; path = Http/Request/HttpRequest.h; sourceTree = "<group>"; };
+		AA90A96FC13D53437D885407 /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpRequest.m; path = Http/Request/HttpRequest.m; sourceTree = "<group>"; };
+		AA31F65442B97E4A5B8BD280 /* HttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpResponse.h; path = Http/Response/HttpResponse.h; sourceTree = "<group>"; };
+		AAA1056F1C5BE2424CBB199B /* HttpResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpResponse.m; path = Http/Response/HttpResponse.m; sourceTree = "<group>"; };
+		AA6CF1B86A849343FF82A339 /* HttpStringResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpStringResponse.h; path = Http/Response/HttpStringResponse.h; sourceTree = "<group>"; };
+		AA22C89D5A43CE47DDB95661 /* HttpStringResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpStringResponse.m; path = Http/Response/HttpStringResponse.m; sourceTree = "<group>"; };
+		AAB92699B7AAFC430AB4479C /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseController.h; path = Controllers/BaseController.h; sourceTree = "<group>"; };
+		AA9AB3AE72DFFE4D04BDFBEA /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseController.m; path = Controllers/BaseController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+        AAA225027C11134E1191F22D /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                AAE264037D92F44F189F90C6 /* Foundation.framework in Frameworks */,
+				AA1838EE2EDA984BF7B70CD3 /* libUnirest.a in Frameworks */,				
+				AA562A10C5C3DC44078FBAA5 /* libJSONModel.a in Frameworks */,				
+				AAC1728C65D05C452188F899 /* libPods.a in Frameworks */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        AA2E77BE9CEDED45D1BF54A8 /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                AA0675A60263CE415084A762 /* UIKit.framework in Frameworks */,
+                AA0A4ABFEFC845457783309C /* libMagicTelecomAPI.a in Frameworks */,
+                AA5971BC06C88547A895FD1D /* Foundation.framework in Frameworks */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+        AAF59A2EDD7D0E4719BC98C9 = {
+            isa = PBXGroup;
+            children = (
+                AA8F95B5FDD369413D934014 /* MagicTelecomAPI */,
+                AAAA0617A5D52D4F2589B251 /* Frameworks */,
+                AA4F65D382B53646D6A90FB0 /* Products */,
+            );
+            sourceTree = "<group>";
+        };
+        AA4F65D382B53646D6A90FB0 /* Products */ = {
+            isa = PBXGroup;
+            children = (
+                AAF9E132B339A341318FB872 /* libMagicTelecomAPI.a */,
+            );
+            name = Products;
+            sourceTree = "<group>";
+        };
+        AAAA0617A5D52D4F2589B251 /* Frameworks */ = {
+            isa = PBXGroup;
+            children = (
+				AA9D7C8D326AA84E49B54CA9 /* libUnirest.a */,
+				AAC275FEFA15894060940DA6 /* libJSONModel.a */,
+				AA024D263D297B47F0AAF8D2 /* libPods.a */,
+                AA99839CFEA4924EBC87E3E0 /* Foundation.framework */,
+                AADE9C119433CE45C0A02F9B /* UIKit.framework */,
+            );
+            name = Frameworks;
+            sourceTree = "<group>";
+        };
+        AA8F95B5FDD369413D934014 /* MagicTelecomAPI */ = {
+            isa = PBXGroup;
+            children = (
+                AA7BC3A74A42C94780ACE643 /* Models */,
+                AA8D0FC55F5E4041628143B2 /* Http */,
+                AA45B3AF6AB49246FAA678B3 /* Controllers */,
+                AAED94F80F615740A8A8C295 /* Supporting Files */,
+                AAB8735569B0214B5BAD49DD /* APIHelper.m */,
+                AA8711B0A695D24221B3FAB3 /* APIHelper.h */,
+                AAE93C7FFC47B14A4E98E0C5 /* APIError.m */,
+                AAB770B5BC6C7D42E5888F5D /* APIError.h */,
+                AA8B612906DB674F18A2B359 /* Configuration.m */,
+                AA53E8DB636C4C40F78E5FA3 /* Configuration.h */,
+            );
+            path = MagicTelecomAPI;
+            sourceTree = "<group>";
+        };
+        AAED94F80F615740A8A8C295 /* Supporting Files */ = {
+            isa = PBXGroup;
+            children = (
+                AAD90F74B43A254ED4B52812 /* MagicTelecomAPI-Prefix.pch */,
+            );
+            name = "Supporting Files";
+            sourceTree = "<group>";
+        };
+        AA45B3AF6AB49246FAA678B3 /* Controllers */ = {
+            isa = PBXGroup;
+            children = (
+				AAB92699B7AAFC430AB4479C /* BaseController.h */,
+				AA9AB3AE72DFFE4D04BDFBEA /* BaseController.m */,
+				AAE98816285E984F418BAF8C /* UsersController.h */,
+				AAD739FA75B9944B37A93164 /* UsersController.m */,
+				AA0AC8A87C350E4850B904D3 /* AccountsController.h */,
+				AA19FE8717DBFE4437A69C42 /* AccountsController.m */,
+				AA4E08EE3DCB7A4640BA34EB /* DidsController.h */,
+				AAF095E36ED1CC453BBFC968 /* DidsController.m */,
+				AA01D3DD7B68094DABBDD1FC /* DidsProductsController.h */,
+				AA3B90200AADED4138B17719 /* DidsProductsController.m */,
+            );
+            name = Controllers;
+            sourceTree = "<group>";
+        };
+		AA3F1BEDB6791B49EEBE8EC4 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				AAC09F7D9DF7234077A19040 /* IHttpClient.h */,
+				AAB84C01B4B75043ACAD0354 /* UnirestClient.h */,
+				AA9E7D4C2A25E04C249CC94A /* UnirestClient.m */,
+				AADAF90E371B714F7D971069 /* HttpContext.h */,
+				AA1EFFD00A453B4D4F8EBE25 /* HttpContext.m */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		AA8D0FC55F5E4041628143B2 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				AA4F4B377735B7415E812B0D /* Request */,
+				AA3F1BEDB6791B49EEBE8EC4 /* Client */,
+				AA614C28A239D74C4CBC787A /* Response */,
+			);
+			name = Http;
+			sourceTree = "<group>";
+		};
+		AA4F4B377735B7415E812B0D /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				AA016BE0DE80624ACDAA20AA /* HttpBodyRequest.h */,
+				AAA950D9F2CC2E43DCAC6157 /* HttpBodyRequest.m */,
+				AAA9502C26F2184D76B556D8 /* HttpMethod.h */,
+				AA62115601CB0144508B4DAD /* HttpRequest.h */,
+				AA90A96FC13D53437D885407 /* HttpRequest.m */,
+			);
+			name = Request;
+			sourceTree = "<group>";
+		};
+		AA614C28A239D74C4CBC787A /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				AA31F65442B97E4A5B8BD280 /* HttpResponse.h */,
+				AAA1056F1C5BE2424CBB199B /* HttpResponse.m */,
+				AA6CF1B86A849343FF82A339 /* HttpStringResponse.h */,
+				AA22C89D5A43CE47DDB95661 /* HttpStringResponse.m */,
+			);
+			name = Response;
+			sourceTree = "<group>";
+		};
+        AA7BC3A74A42C94780ACE643 /* Models */ = {
+            isa = PBXGroup;
+            children = (
+				AA70E1DF280EF24F5492EE26 /* Cdrs.h */,
+				AA384AE3928F3E4D278036E0 /* Cdrs.m */,
+				AABC7A0C55CC4C4459B0C885 /* CartCheckoutForm.h */,
+				AAA22149AA50BB41D3AB7E82 /* CartCheckoutForm.m */,
+				AA88108172C4194C1DBDB382 /* Checkout.h */,
+				AACF1FA39A37B249DBBC1274 /* Checkout.m */,
+				AA7E41A51D11ED4CD3B76BE0 /* TokenForm.h */,
+				AA0B317484CC414F1E92441D /* TokenForm.m */,
+				AA857A3852FD9142F5936380 /* CallerLocationResponse.h */,
+				AA09EBCCC064D24B9293EE80 /* CallerLocationResponse.m */,
+				AA2A4D44054FC349979FB9D6 /* AccountForm.h */,
+				AA32F07542AA554A82844C32 /* AccountForm.m */,
+				AA8BFFAFED019F44A0B23FA4 /* CdrForm.h */,
+				AA2B7F64B1250D4E53A3A468 /* CdrForm.m */,
+				AA76489C3AD42D4D46AD0C66 /* TrunkForm.h */,
+				AAECED0C8C6B62405F947246 /* TrunkForm.m */,
+				AADF3F4AA35F9A44B58C2596 /* Trunk.h */,
+				AAD0AB6A14D24D4FF9B0CDD1 /* Trunk.m */,
+				AA49554B2CE05C4AB09F44CE /* Routing.h */,
+				AA4A1BC61179764480AE961B /* Routing.m */,
+				AAC3F0F2F72D224DDEABA59B /* Endpoint.h */,
+				AA941F459B309B4053BD5823 /* Endpoint.m */,
+				AAE4CADAB198A94907B9E8F7 /* CallerLocationsResponse.h */,
+				AA0ACB674A7BE9473C86C141 /* CallerLocationsResponse.m */,
+				AA0E284294BB364C95AEC927 /* Data.h */,
+				AA570F686063C24EFA9548FA /* Data.m */,
+				AA4F06A039CE194A02A7CEC7 /* CallerLocation.h */,
+				AAAB257E2BA83F4442B8AD91 /* CallerLocation.m */,
+				AA099A61FBB41D402B8606F6 /* CallerLocationForm.h */,
+				AABB0FB294E0CA404FBF1247 /* CallerLocationForm.m */,
+				AA5F32822C07A84977A254AF /* Account.h */,
+				AA0072C146A6EE409E9F306D /* Account.m */,
+				AAC73EEFC3275747F8BC17A7 /* TelephoneNumberForm.h */,
+				AA706DA88963374013ABD934 /* TelephoneNumberForm.m */,
+				AA9654C864AC1E4E9185E3E6 /* ItemForm.h */,
+				AAA9D4FFA02AA74CFEBB4DED /* ItemForm.m */,
+				AA33825A0558FB4739B8110D /* Item.h */,
+				AAE2B5B02D87484D7F94B506 /* Item.m */,
+				AAFE098A1D9C1B4AEEB601C7 /* TrunkItem.h */,
+				AA1E059C1843AC43948E00D9 /* TrunkItem.m */,
+				AA3813C4296C87474A8DB9D9 /* DidItem.h */,
+				AA6F543C5ED39E4D958E8B78 /* DidItem.m */,
+				AA143FAFBBA0334DCE892CD3 /* LocationItem.h */,
+				AAF6B52FF00FB647E4AD5A05 /* LocationItem.m */,
+				AA49053E2463164CF0A31654 /* RoutingBase.h */,
+				AA277D754F089844DD88F399 /* RoutingBase.m */,
+				AA9A67F46A1BD641F4BEB22E /* TelephoneNumber.h */,
+				AA8D412EB9475A46B983C757 /* TelephoneNumber.m */,
+				AA780F0ECDBAA74959B22EE2 /* Token.h */,
+				AA9F778579D6A1424A94FBDE /* Token.m */,
+            );
+            name = Models;
+            sourceTree = "<group>";
+        };
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AA693ABE9F44B34478818D35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+		AA47C018F3BAA24BBEB0D952 /* Cdrs.h in Headers */,
+		AAEA6EE2DECA2542E88BC955 /* CartCheckoutForm.h in Headers */,
+		AA04458D1CDF674AF79B945F /* Checkout.h in Headers */,
+		AAF6C5D0D0F5E8467682218C /* TokenForm.h in Headers */,
+		AAAB5A6DF14F344E018B7FD3 /* CallerLocationResponse.h in Headers */,
+		AA1A488EB9B0A3433C88A81C /* AccountForm.h in Headers */,
+		AA253FE165D50543B584380C /* CdrForm.h in Headers */,
+		AA146289613F494C0C9F55FE /* TrunkForm.h in Headers */,
+		AABE682F21413C46B882CB86 /* Trunk.h in Headers */,
+		AAE77C1A457AF443559F4F35 /* Routing.h in Headers */,
+		AA560BCE281CD04DCF894C38 /* Endpoint.h in Headers */,
+		AAACC1696980424B3D836FF3 /* CallerLocationsResponse.h in Headers */,
+		AAEA9968DF25C44D14907975 /* Data.h in Headers */,
+		AA7515C2A746274629A3DDC2 /* CallerLocation.h in Headers */,
+		AAFA6CA1BF6EB249E595ABE8 /* CallerLocationForm.h in Headers */,
+		AA7194DDA2FECE40E2A31ECC /* Account.h in Headers */,
+		AA862D94EAFFFD49A9A9525C /* TelephoneNumberForm.h in Headers */,
+		AA86FAA4AB095A4D82B6416B /* ItemForm.h in Headers */,
+		AADB06006414E04997B480A7 /* Item.h in Headers */,
+		AA702998D571B5485F8F5960 /* TrunkItem.h in Headers */,
+		AAAAF4F4273B8248B39BBE43 /* DidItem.h in Headers */,
+		AAA804E15063564FABA410A8 /* LocationItem.h in Headers */,
+		AA7D591CC4E8F14B60877576 /* RoutingBase.h in Headers */,
+		AA5ACE25902A564E9795765D /* TelephoneNumber.h in Headers */,
+		AAEF345689FEFC4AFE9C21AA /* Token.h in Headers */,
+		AACF8B40AF75064A478A4AB6 /* UsersController.h in Headers */,
+		AAA2A79E627FD24983872107 /* AccountsController.h in Headers */,
+		AAA0FD2CF7F1E14FEA92E0BE /* DidsController.h in Headers */,
+		AA8394705940FB47959032AB /* DidsProductsController.h in Headers */,
+		AA485224342C5F42699C7565 /* APIHelper.h in Headers */,
+		AA45562A7AA1E749A5836913 /* Configuration.h in Headers */,
+		AA2EAA7F1771E94A5AA77B8B /* APIError.h in Headers */,
+		AA1016CEF561194CB5A2C9CA /* HttpBodyRequest.h in Headers */,
+		AAC4D4B34E17EC454BB1AB20 /* HttpRequest.h in Headers */,
+		AA38BBB8326B5D4D4DA85938 /* IHttpClient.h in Headers */,
+		AAA110EE6CCEC24C1A82778D /* HttpContext.h in Headers */,
+
+		AAA43BBAA53C9248C69C0347 /* BaseController.h in Headers */,
+		AA6F6EC270129445BC9A0EBF /* HttpResponse.h in Headers */,
+		AA4D6F63DBBF8449BF9B65DC /* UnirestClient.h in Headers */,
+		AA1E0ED0549F5C4066AA5BDA /* HttpStringResponse.h in Headers */,
+		AA35469A42AA2645F19F93FB /* HttpMethod.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+        AA168EAB1158A7410CAC684F /* MagicTelecomAPI */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = AA1A2F42D150A54938927006 /* Build configuration list for PBXNativeTarget "MagicTelecomAPI" */;
+            buildPhases = (
+                AA8463D2911BEA4FF6958C6C /* Sources */,
+                AAA225027C11134E1191F22D /* Frameworks */,
+                AA2D6E5270FB514CF9A87799 /* CopyFiles */,
+				AA693ABE9F44B34478818D35 /* Headers */,
+				AA2FB7DA708153431FA73465 /* Build Framework */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+            );
+            name = MagicTelecomAPI;
+            productName = MagicTelecomAPI;
+            productReference = AAF9E132B339A341318FB872 /* libMagicTelecomAPI.a */;
+            productType = "com.apple.product-type.library.static";
+        };		
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+        AA80BB8465D46C48E1A83626 /* Project object */ = {
+            isa = PBXProject;
+            attributes = {
+                LastUpgradeCheck = 0500;
+                ORGANIZATIONNAME = APIMatic;
+            };
+            buildConfigurationList = AACA6DF5FA81A04C73AE8F7A /* Build configuration list for PBXProject "MagicTelecomAPI" */;
+            compatibilityVersion = "Xcode 3.2";
+            developmentRegion = English;
+            hasScannedForEncodings = 0;
+            knownRegions = (
+                en,
+            );
+            mainGroup = AAF59A2EDD7D0E4719BC98C9;
+            productRefGroup = AA4F65D382B53646D6A90FB0 /* Products */;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (
+                AA168EAB1158A7410CAC684F /* MagicTelecomAPI */,
+				AAB98C663E5EB6453987CF47 /* Framework */,
+            );
+        };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA2FB7DA708153431FA73465 /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#Credit: http://www.raywenderlich.com/65964/create-a-framework-for-ios\nset -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers die\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -f -r \"${PODS_ROOT}/Headers/Public/JSONModel/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Copy the public headers into the framework\n/bin/cp -f -r \"${PODS_ROOT}/Headers/Public/Unirest/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Copy the public headers into the framework\n/bin/cp -f -r \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"";
+		};
+		AA1B21517981A44CC1A63D75 /* MultiBuild Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "MultiBuild Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Taken from Ray Wenderlich tutorial: http://www.raywenderlich.com/65964/create-a-framework-for-ios\n\nset -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\nOUTPUT_LOCATION=\"${HOME}/Desktop\"\nif [ ! -w ${OUTPUT_LOCATION} ] ; then OUTPUT_LOCATION=\"${XCS_OUTPUT_DIR}\" ; fi\nif [ ! -w ${OUTPUT_LOCATION} ] ; then OUTPUT_LOCATION=\"/tmp\" ; fi\nif [ ! -w ${OUTPUT_LOCATION} ] ; then echo \"Couldn't find anywhere to write! Dying.\"; exit 1 ; fi\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\necho \"RW_SDK_PLATFORM is ${RW_SDK_PLATFORM}\"\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\necho \"RW_SDK_VERSION is ${RW_SDK_VERSION}\"\n\n# 3 - Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\necho \"RW_OTHER_PLATFORM is ${RW_OTHER_PLATFORM}\"\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\necho \"BUILT_PRODUCTS_DIR is ${BUILT_PRODUCTS_DIR}\"\necho \"RW_OTHER_BUILT_PRODUCTS_DIR is ${RW_OTHER_BUILT_PRODUCTS_DIR}\"\n\n# remove alias and copy, if it's archive\nUNINSTALLED_PRODUCTS_DIRECTORY=\"${BUILT_PRODUCTS_DIR}/../../IntermediateBuildFilesPath/UninstalledProducts\"\n\nif [ -d \"$UNINSTALLED_PRODUCTS_DIRECTORY\" ]; then\necho \"Looks like we're archiving, fixing aliases...\"\nrm \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\"\ncp \"${UNINSTALLED_PRODUCTS_DIRECTORY}/${RW_INPUT_STATIC_LIB}\" \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\"\nfi\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\nif [ -d \"$UNINSTALLED_PRODUCTS_DIRECTORY\" ]; then\necho \"Looks like we're archiving, fixing aliases...\"\nrm \"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\"\ncp \"${UNINSTALLED_PRODUCTS_DIRECTORY}/${RW_INPUT_STATIC_LIB}\" \"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\"\nfi\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Ensure that the framework is present in both platform's build directories\ncp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Copy the framework\nditto \"${RW_FRAMEWORK_LOCATION}\" \"${HOME}/Desktop/${RW_FRAMEWORK_NAME}.framework\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+        AA8463D2911BEA4FF6958C6C /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                AA3E07F5316D9A458CB76C68 /* APIHelper.m in Sources */,
+                AA1CDE98D5708C405CB67CD7 /* APIError.m in Sources */,
+                AA30233C67C01B4B1D89E80D /* Configuration.m in Sources */,
+				AA6E5522F1A66F4C64A4AE91 /* Cdrs.m in Sources */,
+				AA18AE4681A72A4229ACE84C /* CartCheckoutForm.m in Sources */,
+				AA2A1765C0ED3B4246852D62 /* Checkout.m in Sources */,
+				AA1E7C5C04D08A48B187CC78 /* TokenForm.m in Sources */,
+				AAA964A7430DFE404C93BED2 /* CallerLocationResponse.m in Sources */,
+				AA143F230678FB41D595BEC8 /* AccountForm.m in Sources */,
+				AA5C37119C8DC942AD9CC4CE /* CdrForm.m in Sources */,
+				AAB890D37F91594C63B5DCA6 /* TrunkForm.m in Sources */,
+				AACE7E0111CA06453E956D4D /* Trunk.m in Sources */,
+				AAF403091244E147BF802AAF /* Routing.m in Sources */,
+				AAF98FE27015184F3D8E72D8 /* Endpoint.m in Sources */,
+				AA3FEAA62848DA4E9EBA3A4B /* CallerLocationsResponse.m in Sources */,
+				AAC32A000D84A748A3BE541B /* Data.m in Sources */,
+				AA1F22614AB81D4BAF97DD38 /* CallerLocation.m in Sources */,
+				AA1074DC84E53B46F1997A90 /* CallerLocationForm.m in Sources */,
+				AA3CFA648B7F0F4313BD2196 /* Account.m in Sources */,
+				AA47056EDF56EF401DAB9F73 /* TelephoneNumberForm.m in Sources */,
+				AAF34C3520677A48FEAD9A0B /* ItemForm.m in Sources */,
+				AA8DDA241EE12C41C986BC90 /* Item.m in Sources */,
+				AA9897442DA829496CACC6A6 /* TrunkItem.m in Sources */,
+				AA71FED5A3F9044589AC03D4 /* DidItem.m in Sources */,
+				AA56A40BD2927A4A86990B5B /* LocationItem.m in Sources */,
+				AA306194543D554C25BEC488 /* RoutingBase.m in Sources */,
+				AA30F215E09E7242DCA86F2A /* TelephoneNumber.m in Sources */,
+				AA29B65982139545159FB71D /* Token.m in Sources */,
+				AAC38BADCA577A406A835AB2 /* UsersController.m in Sources */,
+				AAE75355997E0B4295A0FF0C /* AccountsController.m in Sources */,
+				AA5147FF9EDE5F4F6B802AF6 /* DidsController.m in Sources */,
+				AAD58514E2DEF349E489A109 /* DidsProductsController.m in Sources */,
+				 AA489AFBDD2EB54D7693F024 /* HttpBodyRequest.m in Sources */,
+				 AA0E960652E2EF45D3ADFC4A /* BaseController.m in Sources */,
+				 AAC47B255C31C841A48B72B9 /* UnirestClient.m in Sources */,
+				 AAA9B3BFA23297489AA9E26E /* UnirestClient.m in Sources */,
+				 AAE920D209272A42E79D1F2A /* HttpResponse.m in Sources */,
+				 AA5492514524B242F8B82B91 /* HttpStringResponse.m in Sources */,
+				 AA57BE76F61AB24AC98F3067 /* HttpRequest.m in Sources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA58D6C41684F940ECBE6E5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA168EAB1158A7410CAC684F /* MagicTelecomAPI */;
+			targetProxy = AAEB86CF5A66774B60806AFD /* PBXContainerItemProxy */;
+		};
+        AAD4F7F66649734FA5A4B181 /* PBXTargetDependency */ = {
+            isa = PBXTargetDependency;
+            target = AA168EAB1158A7410CAC684F /* MagicTelecomAPI */;
+            targetProxy = AAEB86CF5A66774B60806AFD /* PBXContainerItemProxy */;
+        };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA10BB09EDB102440DA3EA09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA23D6FFFF418343C981F536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+        AA8BBEA63D70444425A54B79 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+                CLANG_CXX_LIBRARY = "libc++";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                COPY_PHASE_STRIP = NO;
+                GCC_C_LANGUAGE_STANDARD = gnu99;
+                GCC_DYNAMIC_NO_PIC = NO;
+                GCC_OPTIMIZATION_LEVEL = 0;
+                GCC_PREPROCESSOR_DEFINITIONS = (
+                    "DEBUG=1",
+                    "$(inherited)",
+                );
+                GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+                ONLY_ACTIVE_ARCH = YES;
+                SDKROOT = iphoneos;
+            };
+            name = Debug;
+        };
+        AADEC41F1B93D54AAD9D139C /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+                CLANG_CXX_LIBRARY = "libc++";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                COPY_PHASE_STRIP = YES;
+                ENABLE_NS_ASSERTIONS = NO;
+                GCC_C_LANGUAGE_STANDARD = gnu99;
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+                SDKROOT = iphoneos;
+                VALIDATE_PRODUCT = YES;
+            };
+            name = Release;
+        };
+        AA68A3BE07678946BDAFD702 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                DEAD_CODE_STRIPPING = NO;
+                DSTROOT = /tmp/MagicTelecomAPI.dst;
+                GCC_PRECOMPILE_PREFIX_HEADER = YES;
+                GCC_PREFIX_HEADER = "MagicTelecomAPI/MagicTelecomAPI-Prefix.pch";
+                OTHER_LDFLAGS = "";
+                PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+                SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = "non-global";
+            };
+            name = Debug;
+        };
+        AABE2777093AE543CB84E9A4 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+                DSTROOT = /tmp/MagicTelecomAPI.dst;
+                GCC_PRECOMPILE_PREFIX_HEADER = YES;
+                GCC_PREFIX_HEADER = "MagicTelecomAPI/MagicTelecomAPI-Prefix.pch";
+                OTHER_LDFLAGS = "";
+                PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+                SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = "non-global";
+            };
+            name = Release;
+        };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA4AF41EE8A5894691BD16B5 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA10BB09EDB102440DA3EA09 /* Debug */,
+				AA23D6FFFF418343C981F536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+        AACA6DF5FA81A04C73AE8F7A /* Build configuration list for PBXProject "MagicTelecomAPI" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                AA8BBEA63D70444425A54B79 /* Debug */,
+                AADEC41F1B93D54AAD9D139C /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        AA1A2F42D150A54938927006 /* Build configuration list for PBXNativeTarget "MagicTelecomAPI" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                AA68A3BE07678946BDAFD702 /* Debug */,
+                AABE2777093AE543CB84E9A4 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+/* End XCConfigurationList section */
+    };
+    rootObject = AA80BB8465D46C48E1A83626 /* Project object */;
+}
