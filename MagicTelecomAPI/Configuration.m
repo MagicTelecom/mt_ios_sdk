@@ -11,7 +11,7 @@
 /** The base Uri for API calls */
 +(NSString*) BaseUri
 {
-    return @"https://api.magictelecom.com/app_dev.php";
+    return @"https://api.magictelecom.com";
 }
 
 /** API Token */
